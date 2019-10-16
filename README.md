@@ -24,7 +24,7 @@ Wolf, Thomas. “From zero to research – An introduction to Meta-Learning”. 
 Meta-learning algorithms are named as such due to the presence of data to be worked upon and the meta-data which works upon the data. 
 In these models, there are several layers. One such figure is given in Fig. (1) by Thomas Wolf. The layer shows the initial parameters, represented by a square and the parameters of the optimizer. Generally, the optimizer parameters are updated based on the gradients from the loss function until a good solution exists. 
  
-![Fig 1. Neural Network Training](/images/NeuralTraining.png)
+![Fig 1. Neural Network Training](/Meta-Learning/NeuralTraining.png)
 Format: ![Alt Text](url)
 
  Meta-learning takes this model to another level, which trains the optimizer to pick the best parameters that give the best lower-model parameters. These optimizer parameters are the high-level model or the meta-learner and contains the meta-data. The lower-level model contains the data. These models begin to optimize themselves, hence learning to learn. The first trained task builds the background that a model may use for further tasks. There are other subtypes of meta-learning models such as recurrent neural networks.
