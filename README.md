@@ -51,3 +51,20 @@ In the age of machine learning, many types of models are being developed to get 
 
 However, it has serious drawbacks that deserve careful consideration for those hoping it can be of aid in their endeavours. They are notoriously complex and are still being studied closely. In addition, as far as anyone can tell, a negotiation of performance with cost is required. Many of these models are expensive, in terms of hardware and time. 
 Notwithstanding, computational power is increasing by the year. Soon meta-learning’s potential may be an inescapable reality. 
+
+# Summaries of Peer Reports
+## State of the ART of Machine Learning Models for Object Detection
+
+The report discusses the different options for convolutional neural networks (CNN) for object detection. Although these are numerous, the report specifically discusses CNN, R-CNN, Fast R-CNN, and Faster R-CNN. Each one builds on its predecessor due to a specific deficient quality. For example, R-CNN builds upon the single-object classifying CNN by breaking down a region and reducing interference from different objects. Likewise, the Faster R-CNN builds upon the Fast R-CNN by classifying, well, faster. 
+
+## Summary of R-CNN, Fast R-CNN, Faster R-CNN
+The report explores the differences between the three convolutional neural networks. The R-CNN is much faster than CNN using its region-splitting method. The response time required for some tasks made conventional R-CNN not feasible, which is about 13 s per image. The Fast R-CNN does slightly better at 2 s per image. Ultimately, the most rapid choice is the Faster R-CNN, which can predict at rates as low as 0.2 s. Depending on the task, the latter may just be what is necessary. 
+
+## Unsupervised Learning
+The report discusses the different approaches to unsupervised learning, including k-means and hierarchical clustering, and single linkage. K-means clustering aim to separate data in separate clusters, usually best when the number of clusters is pre-known. Hierarchical clustering is excellent for unknown number of clusters. It ends up creating a sort of tree, known as a dendrogram. Single and complete linkage close out the analysis. The former assumes each point is a cluster of its own and compares the most similar points, while the latter compares the most dissimilar points. While these two provide much information on given data, they can be sensitive to outliers. 
+
+## State of the Art of Machine Learning Models to Detect Segmented Objects
+The report balances several ways to detect objects as have the previous reports.  These include R-CNN, Fast R-CNN, and Faster R-CNN. Some new approaches are Mask R-CNN and YOLO. The Mask R-CNN does require a separate model, which is a disadvantage, but it is quite fast. The YOLO algorithm performs the best in terms of accuracy and speed. However, it is expensive and requires a large set of training data.
+
+## Mini Project 2: Machine Learning
+The report summarizes the types of machine learning tools and their uses. The most simplistic tool is the Business Rule Management Systems (BRMS), which uses static rules, which makes this type outdated very quickly. The mentioned neural networks and deep learning base themselves on the format of the brain, whose neurons inspire the networks in these models. Other types discussed are Data Mining and CBR. There are several opensource libraries that allow for the implementation of these models including Tensorflow, Pytorch and Keras.
